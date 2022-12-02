@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/home.css">
+    <title>Railway Reservation System</title>
+    <link rel="icon" type="image/x-icon" href="./assets/images/looo.jpeg">
+</head>
+<body>
+
+<nav>
+    <img  src="./assets/images/upperlogo.jpeg" width="6%">
+    <h style="font-size:45px; font-family:'Times New Roman', Times, serif;text-align:center; padding-left: 33%"><b>Railway Reservation </b></h>
+    
+    <div class="topnav">
+        <a class="active" href="Railway_main.html">HOME</a>
+        <a href="meals.html">Meals</a>
+        <a href="Tours.html">Holiday Package</a>
+        <a href="service.html">Services At Station</a>
+        <a href="Contact.html">contact Us</a>
+        <a href="about us.html">About Us</a>
+    </div>
+</nav>
+
+<!-- <div class="split right"> -->
+    <div class="forminput">
+        <form class="container" style="border-radius:23px;">
+        <img src="./assets/images/formllogo.jpeg" alt="Reload" style="border-radius:45px;width:211px; margin-bottom:-52px;">
+        <span class="header">
+        <h><b style="font-size:28px;margin-left:-10px">Book Your Ticket</b></h><br>
+        </span>
+        <p style="font-size:11px;margin-right:60px;text-align: end;">DD/MM/YYYY*<br></p>            
+        <input type="text" name="From" placeholder="From" style="font-size: 18px;
+        width: 238px;
+        height: 36px;
+        padding-left: 29px;
+        border-radius: 6px;" />
+        
+        <input type="date" name="Date" placeholder="Date" style="font-size: 17px;
+        width: 172px;
+        height: 44px;
+        padding-left: 9px;
+        margin-left: 24px;
+        margin-bottom: 26px;
+        border-radius: 5px;"  /><br>
+        <input type="text" name="To" placeholder="To" style="font-size: 18px;
+        width: 239px;
+        height: 36px;
+        padding-left: 29px;
+        border-radius: 6px;"/>
+        
+        <select id="all class" name="ALL CLASS" style="font-size: 14px;
+        width: 177px;
+        height: 44px;
+        padding-left: 25px;
+        margin-left: 23px;
+        border-radius: 6px;">
+            <option value="None">ALL CLASSES</option>
+            <option value="class_sed">AC First Class (1A)</option>
+            <option value="class_sed">AC 2 Tier(2A)</option>
+            <option value="class_sed">AC 3 Tier(3A)</option>
+            <option value="class_sed">Sleeper(SL)</option>
+            <option value="class_sed">AC Chair car (CC)</option>
+            <option value="class_sed">Second Sitting(2S)</option>
+            <option value="class_sed">AC 3 Economy(3E)</option>
+            <option value="class_sed">Vistadome AC (EV)</option>
+            <option value="class_sed">Anubhati Class (EA)</option>
+        </select><br>
+        <select id="General" name="general" style="width: 274px;
+        font-size: 17px;
+        height: 41px;
+        border-radius: 5px;
+        padding-left: 22px;
+        margin-top: 26px;
+        margin-bottom: 26px;" >
+            <option value="None">GENERAL</option>
+            <option value="type_class">LADIES</option>
+            <option value="type_class">LOWER BERTH/SR.CITIZEN</option>
+            <option value="type_class">PERSON WITH DISABILITY</option>
+            <option value="type_class">TATKAL</option>
+            <option value="type_class">PREMIUM TATKAL</option>
+        </select><br>
+        <input type="checkbox" name="discount" value="value1"><label style="font-family: ui-rounded;
+        font-size: 15px;padding-right: 25px;padding-left: 3px;">Person With Disability Concession</label>
+        <input type="checkbox" name="discount" value="value2"><label style="font-family: ui-rounded;
+        font-size: 15px;padding-left: 3px;" >Train With Available Berth<br></label>
+        <input type="checkbox" name="discount" value="value3"><label style="font-family: ui-rounded;
+        font-size: 15px;margin-right: 30px;padding-left: 3px;">Flexible With Date</label>
+        <input type="checkbox" name="discount" value="value4"><label style="font-family: ui-rounded;
+        font-size: 15px;padding-left: 3px;">Railway Pass Concession<br></label>
+        <input type="submit" value="Search" onclick="alertDisplay()" name="Search" style="border-radius: 6px;
+        background-color: coral;margin-left: 192px;
+    width: 100px;
+    height: 40px;
+    margin-top: 19px;" ><br>
+        </form>
+    </div>
+</div>
+<h1 style="text-align:center;">HOLIDAYS</h1>
+<marquee >Book Your Tour Today!!   <strong>  HURRY UP!! OFFER VALID FOR LIMITED TIME</strong></marquee>
+<div class="upperimage">
+    <img src="./assets/images/maharaja.jpeg" alt="maharaja Express">
+    <div class="detail">
+    <h3>Maharajas' Express</h3>
+    <p>
+        Redefining Royalty, Luxury and Comfort, Maharajas' express takes you on a sojourn to the era of bygone stately splendour of princely states. Sylvan furnishings, elegant ambience and modern amenities are amalgamated for an “Experience Unsurpassed”. It has been a winner of “World’s Leading Luxury train” by World Travel Awards consecutively for last six years.
+
+    </p>
+    <a href="https://www.the-maharajas.com/" target="_blank"></a>
+    <strong>Read More</strong>
+    </div>
+</div>    
+<div class="upperimage">
+    <img src="./assets/images/international.jpeg" alt="International Tour">
+    <div class="detail">
+    <h3>International package</h3>
+    <p>Best deals in International Holiday packages, handpicked by IRCTC, for Thailand, Dubai, Sri Lanka, Hong Kong, China, Macau, Bhutan, Nepal, U.K., Europe, USA, Australia etc. The packages are inclusive of sightseeing, meals, visa charges and overseas medical insurance to give you a hassle-free and memorable experience.
+
+    </p>
+    <a href="https://www.irctctourism.com/" target="_blank"></a>
+    <strong>Read More</strong>
+    </div>
+</div>    
+<div class="upperimage">
+    <img src="./assets/images/domestic.jpeg" alt="Domestic air package">
+    <div class="detail">
+    <h3>Domestic Air Packages
+
+    </h3>
+    <p>Be it the spiritual devotee seeking blessings of Tirupati, Shirdi or Mata Vaishno Devi or the leisure traveller wanting to relish the Blue mountains of North East, Sand-dunes of Rajasthan, Hamlets of Ladakh, Wonders of Himalayas, Serene lakes or Picturesque Islands, IRCTC has it all. Discover India through IRCTC!
+
+    </p>
+    <a href="https://www.irctctourism.com/" target="_blank">
+
+    </a>
+    <strong>Read More
+
+    </strong>
+
+    </div>
+</div>    
+<div class="upperimage">
+    <img src="./assets/images/bharat.jpeg" alt="Tourist Train" style="width: 336px;">
+    <div class="detail">
+    <h3>
+        Tourist Train
+    </h3>
+    <p>
+        IRCTC operates Bharat Gaurav Tourist Train having AC III-Tier accommodation on train specially designed to promote domestic tourism in India. This train runs on various theme based circuits covering pilgrimage and heritage destinations in its itinerary on a 5 days to 20 days trip and showcase India’s rich cultural heritage.
+    </p>
+    <a href="https://www.irctctourism.com/tourpacakage_search?searchKey=&tagType=&travelType=Domestic&sector=All&bdar=3" target="_blank">
+
+    </a>
+    <strong>
+        Read More
+    </strong>
+
+    </div>
+</div>    
+<div class="upperimage">
+    <img src="./assets/images/rail.jpeg" alt="Rail Tour package">
+    <div class="detail">
+    <h3>
+        Rail Tour Packages
+    </h3>
+    <p>
+        IRCTC offers Exclusive Rail tour packages with confirmed train tickets, sight-seeing and meals for enchanting Nilgiri Mountains, Darjeeling, Kullu Manali, Kashmir, Gangtok or divine tours of Mata Vaishno Devi, Rameswaram, Madurai, Shirdi, Tirupati etc. Holiday packages/ Land packages to these destinations are also available.
+    </p>
+    <a href="https://www.irctctourism.com/" target="_blank">
+
+    </a>
+    <strong>
+        Read More
+    </strong>
+
+    </div>
+</div>    
+</div>
+<footer>
+<div>
+    <img src="./assets/images/footer2.jpeg.png" alt="Please reload" width="100%">
+    <img src="./assets/images/foooterimg.jpeg.png" alt="The footer is unavailable" width="100%">
+    <p>Copyright © 2022 - 
+        www.railwaysystem.co.in.
+        All Rights Reserved
+        Designed and Hosted by Nikhil
+        Compatible Browsers</p>   
+</footer>    
+
+<script src="./assets/js/main.js"></script>
+</body>
+</html>
